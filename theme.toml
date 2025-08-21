@@ -1,0 +1,16 @@
+name = "Fineshop Theme"
+license = "MIT"
+licenselink = "https://github.com/mnurulhuda2/hugo-fineshop-theme/blob/main/LICENSE"
+description = "Modern Hugo theme dengan tampilan Fineshop Design dan fitur Dashboard Blogger"
+homepage = "https://github.com/mnurulhuda2/hugo-fineshop-theme"
+tags = ["blog", "dashboard", "responsive", "dark-mode", "fineshop"]
+features = ["dark mode", "cookie consent", "responsive design", "dashboard"]
+min_version = "0.80.0"
+
+[author]
+  name = "Muhamad Nurul Huda"
+  homepage = "https://github.com/mnurulhuda2"
+
+[screenshot]
+  src = "https://raw.githubusercontent.com/mnurulhuda2/hugo-fineshop-theme/main/images/screenshot.png"
+  alt = "Fineshop Theme Screenshot"

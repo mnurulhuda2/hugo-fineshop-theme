@@ -1,0 +1,28 @@
+{{ define "main" }}
+    <div class="dashboard-header">
+        <h1 class="dashboard-title">{{ .Title }}</h1>
+        <p class="dashboard-subtitle">{{ .Site.Params.dashboardSubtitle | default "Selamat datang! Ini yang terjadi dengan situs Anda hari ini." }}</p>
+    </div>
+    
+    {{ if .Site.Params.dashboard.showStats }}
+        {{ partial "dashboard-stats.html" . }}
+    {{ end }}
+    
+    <div class="content-grid">
+        <div>
+            {{ if .Site.Params.dashboard.showRecentPosts }}
+                {{ partial "recent-posts.html" . }}
+            {{ end }}
+        </div>
+        
+        <div>
+            {{ if .Site.Params.dashboard.showRecentComments }}
+                {{ partial "recent-comments.html" . }}
+            {{ end }}
+            
+            {{ if .Site.Params.dashboard.showQuickActions }}
+                {{ partial "quick-actions.html" . }}
+            {{ end }}
+        </div>
+    </div>
+{{ end }}

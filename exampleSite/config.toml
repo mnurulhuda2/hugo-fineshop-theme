@@ -1,0 +1,42 @@
+baseURL = 'https://mnurulhuda2.github.io/hugo-fineshop-theme/'
+languageCode = 'en-us'
+title = 'Fineshop Theme Demo'
+theme = 'hugo-fineshop-theme'
+
+[params]
+    description = 'Demo site untuk Fineshop Theme - Hugo theme dengan tampilan Fineshop Design dan fitur Dashboard Blogger'
+    author = 'Muhamad Nurul Huda'
+    primaryColor = '#4f46e5'
+    accentColor = '#10b981'
+    dashboardSubtitle = 'Selamat datang di demo Fineshop Theme!'
+
+[params.dashboard]
+    showStats = true
+    showRecentPosts = true
+    showRecentComments = true
+    showQuickActions = true
+
+[params.cookieConsent]
+    enabled = true
+    message = 'Kami menggunakan cookie untuk meningkatkan pengalaman Anda.'
+    dismiss = 'Mengerti'
+    link = '/privacy'
+    learnMore = 'Kebijakan Privasi'
+
+[menu]
+    [[menu.main]]
+        name = 'Home'
+        url = '/'
+        weight = 1
+    [[menu.main]]
+        name = 'Blog'
+        url = '/posts/'
+        weight = 2
+    [[menu.main]]
+        name = 'About'
+        url = '/about/'
+        weight = 3
+    [[menu.main]]
+        name = 'Contact'
+        url = '/contact/'
+        weight = 4

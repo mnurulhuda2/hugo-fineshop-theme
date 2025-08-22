@@ -40,3 +40,17 @@ theme = 'hugo-fineshop-theme'
         name = 'Contact'
         url = '/contact/'
         weight = 4
+[params]
+    primaryColor = "#4f46e5"      # Warna utama theme
+    accentColor = "#10b981"       # Warna aksen
+    dashboardSubtitle = "Selamat datang!"  # Subtitle dashboard
+
+[params.dashboard]
+    showStats = true              # Tampilkan statistik
+    showRecentPosts = true        # Tampilkan postingan terbaru
+    showRecentComments = true     # Tampilkan komentar terbaru
+    showQuickActions = true       # Tampilkan quick actions
+
+[params.cookieConsent]
+    enabled = true                # Aktifkan cookie consent
+    message = "Pesan cookie"      # Pesan cookie consent
